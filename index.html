@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <style>
+        body{
+            background: url(https://images4.alphacoders.com/201/thumb-1920-201716.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            backdrop-filter: blur(4px);
+            background: rgba(255, 255, 255, 0.4);
+            margin-top: 200px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 150px;
+            color: rgb(134, 134, 134);
+        }
+
+        .timer {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .buttons {
+            text-align: center;
+        }
+
+        .aa {
+            width: 100px;
+            height: 40px;
+            color: #fff;
+            cursor: pointer;
+        }
+        .start{
+            background: #13bd07;
+            border: none;
+        }
+        .stop{
+            background: red;
+            border: none;
+        }
+        .reset{
+            background: blue;
+            border: none;
+        }
+    </style>
+
+
+
+
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <p class="timer">25:00</p>
+        <div class="buttons">
+            <button class="start aa">Start</button>
+            <button class="stop aa">Stop</button>
+            <button class="reset aa">Reset</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
